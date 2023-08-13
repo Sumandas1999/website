@@ -30,12 +30,12 @@ function Container() {
   }
 
   return (
-    <div className="">
-    
-    
-      <h1 className="flex justify-center my-4 text-4xl  "> IMAGE STACK</h1>
-      <div className="flex gap-6 m-20">
-        <div className=" space-y-6 ">
+    <div className="main-container">
+
+
+      <h1 className="start-head flex justify-center my-4 text-4xl  "> IMAGE STACK</h1>
+      <div className=" main-container flex gap-6 m-20">
+        <div className=" main-container space-y-6 ">
           {
             ImageRender &&
             ImageRender.map((image, index) => (
@@ -46,7 +46,7 @@ function Container() {
                   src={image}
                 ></img>
 
-                
+
               </div>
             ))
           }
@@ -61,7 +61,7 @@ function Container() {
                 alt={image}
               ></img>
 
-              
+
             </div>
           ))
 
@@ -76,7 +76,7 @@ function Container() {
                 alt={image}
               ></img>
 
-              
+
             </div>
           ))
         }</div>

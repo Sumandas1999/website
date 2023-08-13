@@ -8,3 +8,48 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+@media (max-width: 768px){ 
+  .navtext{
+
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    text-align-last: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #0062ff 0%, #ec0909 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .start-head{
+    font-size: 1.5rem;
+    
+  }
+  .social-bar{
+      border: none;
+      height: 40px;
+      width: 30px;
+      padding-top: 120px;
+      margin: 0px;
+      
+    
+  }
+.bg-cover{
+  height: 100px;
+}
+
+  .social{
+    margin: 0px;
+  }
+  .main-container{
+    margin-left: 0px;
+    margin-right: 5px;
+    overflow-x: 30px;
+    margin-top: 10px;
+  }
+  .footer-text{
+    font-size: medium;
+    text-align: center;
+  }
+}

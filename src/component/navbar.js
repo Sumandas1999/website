@@ -9,14 +9,14 @@ function Navbar() {
   return (
     <div>
       <div
-        className="z-0 "
+        className="bg-cover "
         style={{
           backgroundImage: ` linear-gradient(to bottom, rgba(15, 15, 15, 0.03), rgba(0, 0, 0, 0.5)), url(${grass})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
-          height: "60vh",
+          height: "50vh",
           overflow: "hidden",
         }}
 
@@ -33,14 +33,14 @@ function Navbar() {
                 className="player"
                 loop
                 autoplay
-                speed={-2}
+                speed={1}
                 style={{ height: '70px', width: '70px' }}
               />
             </a>
 
             <div className="hidden w-full md:block md:w-auto" id="navbar-default">
               <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border md:flex-row md:space-x-8 md:mt-0 md:border-0  ">
-                <li>
+                {/* <li>
                   <a href="#" className="block py-2 pl-3 pr-4 text-white  ">Home</a>
                 </li>
                 <li>
@@ -54,7 +54,7 @@ function Navbar() {
                 </li>
                 <li>
                   <a href="#" className="block py-2 pl-3 pr-4 text-white  ">Contact</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
