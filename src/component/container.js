@@ -34,8 +34,8 @@ function Container() {
 
 
       <h1 className="start-head flex justify-center my-4 text-4xl  "> IMAGE STACK</h1>
-      <div className=" main-container flex gap-6 m-20">
-        <div className=" main-container space-y-6 ">
+      <div className=" main-container flex gap-3 md:gap-6 m-10 md:m-20">
+        <div className=" main-container space-y-3 md:space-y-6 ">
           {
             ImageRender &&
             ImageRender.map((image, index) => (
@@ -51,7 +51,7 @@ function Container() {
             ))
           }
         </div>
-        <div className=" space-y-6 ">{
+        <div className=" space-y-3 md:space-y-6 ">{
           ImageRender1 &&
           ImageRender1.map((image, index) => (
             <div className="relative " key={index}>
@@ -66,7 +66,7 @@ function Container() {
           ))
 
         }</div>
-        <div className=" space-y-6 ">{
+        <div className=" space-y-3 md:space-y-6 ">{
           ImageRender2 &&
           ImageRender2.map((image, index) => (
             <div className="relative " key={index}>

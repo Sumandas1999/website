@@ -11,13 +11,14 @@ function Navbar() {
       <div
         className="bg-cover "
         style={{
-          backgroundImage: ` linear-gradient(to bottom, rgba(15, 15, 15, 0.03), rgba(0, 0, 0, 0.5)), url(${grass})`,
+          backgroundImage: ` linear-gradient (to bottom, rgba(15, 15, 15, 0.03), rgba(0, 0, 0, 0.5)), url(${grass})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
           height: "50vh",
           overflow: "hidden",
+          filter: "blur"
         }}
 
       >
