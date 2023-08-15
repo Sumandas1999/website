@@ -10,7 +10,7 @@ function App() {
       
       <Navbar />
       <div className="grid grid-flow-col ">
-       <div className="w-14"><Side/> </div>
+       <div className="w-auto"><Side/> </div>
       <div><Container/></div>
       </div>
       

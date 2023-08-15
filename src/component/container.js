@@ -34,7 +34,7 @@ function Container() {
 
 
       <h1 className="start-head flex justify-center my-4 text-4xl  "> IMAGE STACK</h1>
-      <div className=" main-container flex gap-3 md:gap-6 m-10 md:m-20">
+      <div className=" main-container flex gap-3 md:gap-6 m-5 md:m-20">
         <div className=" main-container space-y-3 md:space-y-6 ">
           {
             ImageRender &&
