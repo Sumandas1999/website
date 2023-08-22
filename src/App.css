@@ -27,12 +27,13 @@
 
   width: 100% !important;
   height: auto !important;
-  margin-top: 2.3vh;
+  margin-top: 2.3vw;
 }
 .grid-container img:hover{
   opacity: .7;
-  transform: scale(1.07);
-  transition: transform .2s
+  transform: scale(1.05);
+  transition:  .3s
+
 }
 @media (max-width: 1200px) {
   .grid-container{

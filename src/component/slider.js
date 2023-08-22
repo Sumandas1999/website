@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Slider = () => {
 
@@ -17,11 +19,15 @@ const Slider = () => {
     }
 
     return (
+        
+         
         <div className="grid-container  ">
             {
-                imageList.map((image, index) => <div key={index}> <img  src={image} /> </div>)
+                imageList.map((image, index) => <div key={index}> <LazyLoadImage effect='blur' src={image} /> </div>)
             }
         </div>
+        
+
     )
 }
 
