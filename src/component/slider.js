@@ -7,7 +7,7 @@ const Slider = () => {
     const [imageList, setImageList] = useState([]);
 
     const getImageArray = () => {
-        for (let i = 1; i <= 113; i++) {
+        for (let i = 1; i <= 113 ; i++) {
             const temp = imageList;
             temp.push(`../images/image${i}.jpg`)
             setImageList(temp)
@@ -23,7 +23,10 @@ const Slider = () => {
          
         <div className="grid-container  ">
             {
-                imageList.map((image, index) => <div key={index}> <LazyLoadImage effect='blur' src={image} /> </div>)
+                imageList.map((image, index) => <div key={index}> <LazyLoadImage 
+                effect='blur'
+               
+                 src={image} /> </div>)
             }
         </div>
         

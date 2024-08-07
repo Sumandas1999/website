@@ -9,12 +9,13 @@ function App() {
     <div>
       
       <Navbar />
-      <div className="grid grid-flow-col ">
+      {/* <div className="grid grid-flow-col ">
        <div className="w-auto"><Side/> </div>
-      {/* <div><Container/></div> */}
-      
+      {/* <div><Container/></div> 
+      </div> */}
+
       <Slider/>
-      </div>
+      
       
       <Footer />
       
