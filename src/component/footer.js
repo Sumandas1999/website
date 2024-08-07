@@ -13,10 +13,7 @@ function Footer() {
         <h1>
           i am done with coding
         </h1>
-        <h1>
-          i am done with coding
-        </h1>
-
+        
 
       </div>
 
